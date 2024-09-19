@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'StarWars';
+    src: url('../fonts/Starjedi.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StarWars Thin';
+    src: url('../fonts/Starjhol.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'StarWars', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+body a {
+    padding: .5em 1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+body a:hover {
+    background-color: #F5181B;
+    box-shadow: 0px 15px 20px rgba(197, 37, 42, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.intro {
+    height: 100vh;
+    box-shadow: inset 0px -150px 100px 40px rgba(0,0,0,1);
+    background-image: url(../assets/bg-space.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.intro header h1 {
+    background-image: url(../assets/LogoStarWars.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 5em;
+    font-family: 'StarWars Thin', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.intro header h2 {
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.intro header h2 abbr {
+    text-decoration: none;
+}
+
+.intro h3 {
+    font-weight: 400;
+}
+
+.intro p {
+    font-family: "Lexend", sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.summary, .preamble {
+    max-width: 100vw;
+}
+
+.summary abbr, .preamble abbr {
+    text-decoration: none;
+}
+
+.summary {
+    padding: 25% 0% 1% 2%;
+}
+
+.preamble {
+    padding: 0% 0% 4% 2%;
+    background-image: url(../assets/down-arow.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.preamble h3 {
+    padding-bottom: 10px;
+}
+
+#zen-supporting {
+    height: 170vh;
+    box-shadow: inset 0px 150px 150px 30px rgba(0,0,0,1), inset 0px -100px 80px 0px rgba(0,0,0,1);
+    background-image: url(../assets/bg-navy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.main {
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+.main h3 {
+    font-weight: 400;
+    padding: 2%;
+}
+
+.main p {
+    font-family: "Lexend", sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    padding: 0% 2% 2% 2%;
+}
+
+.main abbr, .main a {
+    text-decoration: none;
+}
+
+.explanation, .participation, .benefits, .requirements {
+    width: 60%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .5s;
+}
+
+.explanation:hover, .benefits:hover {
+    box-shadow: 0px 15px 20px rgba(0, 131, 224, 0.4);
+    transform: translateY(-7px);
+}
+
+.participation:hover, .requirements:hover {
+    box-shadow: 0px 15px 20px rgba(197, 37, 42, 0.4);
+    transform: translateY(-7px);
+}
+
+.explanation, .benefits {
+    margin-left: 700px;
+}
+
+.explanation::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/pngwing.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -280px;
+}
+
+.participation::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background-image: url(../assets/soldier-png.com.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 1082px;
+}
+
+.benefits::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    background-image: url(../assets/yoda-png.com.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -100px;
+}
+
+.requirements::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    background-image: url(../assets/darth-vader-png.com.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 1030px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer a {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.zen-validate-html:hover {
+    background-color: #FF4E1D;
+    box-shadow: 0px 15px 20px rgba(255, 78, 29, 0.4);
+}
+
+.zen-validate-html::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/html-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+.zen-validate-css:hover {
+    background-color: #0074BE;
+    box-shadow: 0px 15px 20px rgba(0, 117, 190, 0.4);
+}
+
+.zen-validate-css::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/logo-css-3-256.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+
+.zen-license:hover {
+    background-color: #2A2627;
+    box-shadow: 0px 15px 20px rgba(42, 38, 39, 0.4)
+}
+
+.zen-license::before {
+    content: 'CC';
+    font-size: 4em;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 6px;
+}
+
+.zen-accessibility:hover {
+    background-color: #2A2627;
+    box-shadow: 0px 15px 20px rgba(42, 38, 39, 0.4)
+}
+
+.zen-accessibility::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/accessibility-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.zen-github:hover {
+    background-color: #9363c9;
+    box-shadow: 0px 15px 20px rgba(82, 47, 121, 0.4);
+}
+
+.zen-github::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/github-logo-purple.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    height: 82vh;
+}
+
+.wrapper h3 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.wrapper a {
+    font-family: "Lexend", sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+    #zen-supporting {
+        height: 260vh;
+    }
+
+    .summary {
+        padding: 16% 0% 1% 2%;
+    }
+
+    .explanation, .benefits {
+        margin-left: 500px;
+    }
+
+    .explanation::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 325px;
+        height: 325px;
+        background-image: url(../assets/pngwing.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -310px;
+    }
+
+    .participation::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background-image: url(../assets/soldier-png.com.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 760px;
+    }
+
+    .requirements::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 700px;
+        height: 700px;
+        background-image: url(../assets/darth-vader-png.com.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 720px;
+}
+}
