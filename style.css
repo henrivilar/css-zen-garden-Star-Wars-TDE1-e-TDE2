@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'StarWars';
-    src: url('/fonts/Starjedi.ttf');
+    src: url('fonts/Starjedi.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'StarWars Thin';
-    src: url('/fonts/Starjhol.ttf');
+    src: url('fonts/Starjhol.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,14 +53,14 @@ body a:hover {
 .intro {
     height: 100vh;
     box-shadow: inset 0px -150px 100px 40px rgba(0,0,0,1);
-    background-image: url(/assets/bg-space.png);
+    background-image: url(assets/bg-space.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
 }
 
 .intro header h1 {
-    background-image: url(/assets/LogoStarWars.png);
+    background-image: url(assets/LogoStarWars.png);
     background-repeat: no-repeat;
     background-position: top;
     font-size: 5em;
@@ -106,7 +106,7 @@ body a:hover {
 
 .preamble {
     padding: 0% 0% 4% 2%;
-    background-image: url(/assets/down-arow.png);
+    background-image: url(assets/down-arow.png);
     background-repeat: no-repeat;
     background-size: 50px;
     background-position-x: center;
@@ -120,7 +120,7 @@ body a:hover {
 #zen-supporting {
     height: 170vh;
     box-shadow: inset 0px 150px 150px 30px rgba(0,0,0,1), inset 0px -100px 80px 0px rgba(0,0,0,1);
-    background-image: url(/assets/bg-navy.png);
+    background-image: url(assets/bg-navy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -176,7 +176,7 @@ body a:hover {
     position: absolute;
     width: 300px;
     height: 300px;
-    background-image: url(/assets/pngwing.png);
+    background-image: url(assets/pngwing.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: -280px;
@@ -188,7 +188,7 @@ body a:hover {
     position: absolute;
     width: 340px;
     height: 340px;
-    background-image: url(/assets/soldier-png.com.png);
+    background-image: url(assets/soldier-png.com.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 1082px;
@@ -200,7 +200,7 @@ body a:hover {
     position: absolute;
     width: 175px;
     height: 175px;
-    background-image: url(/assets/yoda-png.com.png);
+    background-image: url(assets/yoda-png.com.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: -100px;
@@ -212,7 +212,7 @@ body a:hover {
     position: absolute;
     width: 580px;
     height: 580px;
-    background-image: url(/assets/darth-vader-png.com.png);
+    background-image: url(assets/darth-vader-png.com.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 1030px;
@@ -249,7 +249,7 @@ footer a {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(/assets/html-5.png);
+    background-image: url(assets/html-5.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 15px;
@@ -266,7 +266,7 @@ footer a {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(/assets/logo-css-3-256.png);
+    background-image: url(assets/logo-css-3-256.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 15px;
@@ -298,7 +298,7 @@ footer a {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(/assets/accessibility-logo.svg);
+    background-image: url(assets/accessibility-logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 20px;
@@ -315,7 +315,7 @@ footer a {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(/assets/github-logo-purple.png);
+    background-image: url(assets/github-logo-purple.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 20px;
@@ -353,7 +353,7 @@ footer a {
         position: absolute;
         width: 325px;
         height: 325px;
-        background-image: url(/assets/pngwing.png);
+        background-image: url(assets/pngwing.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: -310px;
@@ -365,7 +365,7 @@ footer a {
         position: absolute;
         width: 400px;
         height: 400px;
-        background-image: url(/assets/soldier-png.com.png);
+        background-image: url(assets/soldier-png.com.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: 760px;
@@ -377,7 +377,7 @@ footer a {
         position: absolute;
         width: 700px;
         height: 700px;
-        background-image: url(/assets/darth-vader-png.com.png);
+        background-image: url(assets/darth-vader-png.com.png);
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: 720px;
