@@ -393,7 +393,7 @@ footer a {
 
 @media screen and (max-width: 1440px) {
     #zen-supporting {
-        height: 260vh;
+        height: 262vh;
     }
 
     .summary {
@@ -438,5 +438,9 @@ footer a {
         background-repeat: no-repeat;
         background-size: contain;
         margin-left: 720px;
-}
+    }
+
+    .sidebar::after {
+        height: 40%;
+    }
 }
